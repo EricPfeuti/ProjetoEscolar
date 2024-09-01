@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- SCRIPT -->
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/header.js"></script>
+    
+    <title>AC - Site PortFolio</title>
+</head>
+<body>
+    
+    <header id="header">
+        <div class="interface">
+             <div class="logo">
+                 <a href="#">
+                     <img src="images/logoMiles.png" alt="">
+                 </a>
+             </div>
+ 
+             <nav class="menu-desktop">
+                 <ul>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#meio-do-site">Projetos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                 </ul>
+             </nav>
+ 
+             <div class="btn-contato">
+                 <a href="#contato">
+                     <button>CONTATO</button>
+                 </a>
+             </div>
+ 
+             <div class="btn-abrir-menu" id="btn-menu">
+                 <i class="fa-solid fa-bars"></i>
+             </div>
+ 
+             <div class="menu-mobile" id="menu-mobile">
+                 <div class="btn-fechar">
+                     <i class="fa-solid fa-x"></i>
+                 </div>
+                 <nav>
+                     <ul>
+                        <li><a href="#topo-do-site">Início</a></li>
+                        <li><a href="#meio-do-site">Projetos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                     </ul>
+                 </nav>
+             </div>
+ 
+             <div class="overlay-menu" id="overlay-menu">
+ 
+             </div>
+ 
+        </div>
+    </header>
+
+    <main>
+
+        <section id="topo-do-site"  class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>OLÁ! EU SOU <span>MILES GORDON</span>.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint perspiciatis eius cum exercitationem ratione alias voluptates accusantium repellat nulla maiores. Aliquid, fugiat. Sed itaque vero omnis possimus. Facere, quidem? Rem.</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>CONTATO</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="images/Perfil.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="meio-do-site" class="meio-do-site">
+            <div class="interface">
+                <div class="txt-meio-site">
+                    <h1>MEU <span>PORTFOLIO</span>.</h1>
+                    <strong>Projetos da escola para uma avaliação:</strong>
+                </div>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/Baymax.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="nome">BAYMAX</h2>
+                                    <p class="descricao">
+                                        Baymax é um personagem de um filme animado chamado “Operação Big Hero” que fiz como personagem fictício da minha avaliação.
+                                    </p>
+                                    <button class="button">Ver Mais</button>
+                                </div>
+
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image" id="forma">
+                                        <img src="images/Formas.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="nome">FORMAS</h2>
+                                    <p class="descricao">
+                                        As formas geométricas fizemos em aula junto ao professor e faz parte da avaliação, processo realizado junto ao professor.
+                                    </p>
+                                    <button class="button">Ver Mais</button>
+                                </div>
+
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/Gato com Pato.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="nome">GATINHO</h2>
+                                    <p class="descricao">
+                                        O gatinho segurando um pássaro é um trabalho realizado em sala que fizemos juntos com o professor sendo parte da avaliação.
+                                    </p>
+                                    <button class="button">Ver Mais</button>
+                                </div>
+
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content" id="formaAuto">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/Formas2.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="nome">AUTORAL</h2>
+                                    <p class="descricao">
+                                        Pesquisamos formas geométricas e fizemos em casa baseando em uma foto com tais formas, fazendo parte da avaliação.
+                                    </p>
+                                    <button class="button">Ver Mais</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/PerfilCompleto.png" alt="">   
+                    </div>
+
+                    <div class="txt-sobre efeito-txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU MILES.</span>
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt aperiam reiciendis accusamus pariatur esse ipsa vitae animi debitis quaerat adipisci! Minus animi debitis reprehenderit et repellat totam est nam! Dolores.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt aperiam reiciendis accusamus pariatur esse ipsa vitae animi debitis quaerat adipisci! Minus animi debitis reprehenderit et repellat totam est nam! Dolores.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt aperiam reiciendis accusamus pariatur esse ipsa vitae animi debitis quaerat adipisci! Minus animi debitis reprehenderit et repellat totam est nam! Dolores.
+                        </p>
+                        <div class="btn-social2">
+                            <a href="https://www.instagram.com/eric.pfeuti/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/eric-pfeuti-b481142a8/"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/EricPfeuti"><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="formulario">
+            <div class="interface">
+                <h1 class="titulo">FALA <span>COMIGO.</span></h1>
+    
+                <form>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome:" >
+                    <input type="text" id="email" name="email" placeholder="Seu email:" >
+                    <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem:" ></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="inteface">
+            <div class="flex">
+                    <div class="logo-footer">
+                        <a href="#">
+                            <img src="images/logo2.png" alt="">
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="btn-social2">
+            <a href="https://www.instagram.com/eric.pfeuti/"><button><i class="bi bi-instagram"></i></button></a>
+            <a href="https://www.linkedin.com/in/eric-pfeuti-b481142a8/"><button><i class="bi bi-linkedin"></i></button></a>
+            <a href="https://github.com/EricPfeuti"><button><i class="bi bi-github"></i></button></a>
+        </div>  
+
+    </footer>
+
+    <!-- SWIPER -->
+    <script defer src="./js/swiper-bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
+
+</body>
+<!-- ICONS -->
+<script src="https://kit.fontawesome.com/4f654dde56.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4f654dde56.js" crossorigin="anonymous"></script>
+</html>
+    
